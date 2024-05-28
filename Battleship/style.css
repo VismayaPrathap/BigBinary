@@ -1,0 +1,98 @@
+#screen {
+    background-color: #a2d7a2;
+}
+
+h1 {
+    color: #003300;
+    text-align: center;
+    font-family: 'Diplomata SC', cursive;
+    font-size: 30px;
+}
+
+#rulesHeading {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    top: -20px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    color: #003300;
+}
+
+#rules {
+    color: #003300;
+    font-weight: bold;
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    margin: auto;
+    max-width: fit-content;
+}
+
+
+.grid {
+    box-sizing: border-box;
+    background-color: seagreen;
+    border: double 2px #0c1c0c;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.pic {
+    height: 96px;
+    width: 96px;
+    display: none;
+}
+
+.parent {
+    border: double 2px #0c1c0c;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eraseButton {
+    background-color: seagreen;
+    display: inline;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #0c1c0c;
+    color: black;
+    width: 4em;
+    position: relative;
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eraseButton:hover {
+    background-color: #177245;
+    cursor: pointer;
+}
+
+.endGame {
+    background-color: black;
+    border: double 6px #177245;
+    color: #a2d7a2;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+    width: 600px;
+    height: 80px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
